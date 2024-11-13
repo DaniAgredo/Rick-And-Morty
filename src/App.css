@@ -1,0 +1,19 @@
+.hero {
+	width: 100%;
+	height: 40vh;
+	background-image: url(https://images.hdqwalls.com/wallpapers/rick-and-morty-smith-adventures-4k-di.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.container {
+	max-width: 1024px;
+	margin: 0 auto;
+	padding: 0 0.75em;
+}
+@media screen and (min-width: 1024px) {
+	.hero {
+		height: 50vh;
+	}
+}
